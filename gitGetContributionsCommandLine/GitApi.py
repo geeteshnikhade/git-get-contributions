@@ -209,9 +209,9 @@ if __name__ == '__main__':
     print('\nPrinting Combined Final Dates Map:')
     print(datesMap)
 
-    print('\nTotal Contributoins for the Last year are:')
+    print('\nTotal Contributions for the Last year are:')
     contributionsList = []
-    for index in range(0, 365):
+    for index in range(0, 366):
         date = todaysDate - datetime.timedelta(365-index)
         contributions = datesMap.get(str(date), 0)
         contributionsList.append(contributions)
