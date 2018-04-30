@@ -1,0 +1,54 @@
+<html>
+<style type="text/css">
+	div {
+    display: block;
+    background: #efefef;
+    border-radius: 0 0 2px 2px;
+    padding: 15px;
+}
+.section__headline {
+    padding: 7px 15px;
+    border-bottom: 1px solid #fafcf7;
+    border-radius: 3px 3px 0 0;
+    background: #e56655;
+    background: -webkit-linear-gradient(#EF705F,#E05C50);
+    background: -moz-linear-gradient(#EF705F,#E05C50);
+    background: -o-linear-gradient(#EF705F,#E05C50);
+    background: linear-gradient(#EF705F,#E05C50);
+    box-shadow: inset 0 1px #f08c75;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.2);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+</style>
+<script type="text/javascript">
+	function nonediv(){
+		document.getElementById("divelement").style.display = "none"
+	}
+	function showdiv(){
+		document.getElementById("divelement").style.display = "block"
+	}
+</script>
+<body>
+<form action="/">
+<div class="section__headline">Welcome:</div>
+<div>
+<label> To User</label>
+<input type = "text" name="toUser"></input>
+<br>
+<input type="radio" name="oneYearValue" value="one year" onclick = "nonediv()" > one year
+<input type="radio" name="oneYearValue" value="date" onclick="showdiv()" checked> specific date<br>
+<div id="divelement">
+	<label> date from</label>
+	<input type="date" name="datefrom">
+	<label>date to</label>
+	<input type="date" name="dateto">
+</div> 
+<input type="submit" name="submit">
+</div>
+</form>
+</body>
+</html>
