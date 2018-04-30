@@ -21,7 +21,6 @@ imports required:
 
 Use `python GitApi.py` to run GitApi.py
 
-
 ## gitGetContributionsRestWebApp ##
 imports required:
 * import requests
@@ -44,10 +43,11 @@ Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 
 On your browser, goto http://localhost:5000/login
 Following screen would appear:
-
+![alt text](screenshots/login.png "Enter your github credentials")
 
 After Entering your details, and logging in, you would be redirected to a page like:
+![alt text](screenshots/home.png "Enter the User whose contributions should be queiried")
 
-
-
+The output at the end is a Map containing all the Dates and the contributions on those dates as Key-value pairs
+![alt text](screenshots/output.png "Output")
 
