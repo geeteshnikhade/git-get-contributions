@@ -21,6 +21,8 @@ imports required:
 
 Use `python GitApi.py` to run GitApi.py
 
+The output of this would be of the following format: [0, 5, 3, 15, 0 ... 1, 19] where 0 is the number of contributions 365 days ago, 5 the number of contributions 364 days ago, 1 the number of contribution yesterday, 19 the number of contributions of today etc…
+
 ## gitGetContributionsRestWebApp ##
 imports required:
 * import requests
