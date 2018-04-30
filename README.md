@@ -10,7 +10,7 @@ Following rules are used to count a contribution:
 3. 1 contribution, if the user opens a pull request on a master repository.
 
 As per my research, GitHub API does not provide information about the private repos, or the commits to private repos. 
-Hence, contributions to private repos couldnt be calculated.
+***Hence, contributions to private repos couldnt be calculated.***
 
 ## gitGetContributionsCommandLine ##
 imports required:
