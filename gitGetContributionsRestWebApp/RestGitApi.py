@@ -62,7 +62,8 @@ def getPrContributions (author, dateFrom, dateUntil):
                 prDatesMap[date] = prDatesMap.get(date, 0) + 1
 
 def getRepos (user):
-    url = 'https://api.github.com/users/'+user+'/repos'
+    # url = 'https://api.github.com/users/'+user+'/repos'
+    url = 'https://api.github.com/user/repos'
     r = requests.get(url, auth=(userName, password))
     rJson = r.json()
     reposList = []
