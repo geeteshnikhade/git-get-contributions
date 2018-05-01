@@ -6,11 +6,13 @@ This project can be used to calculate the Git contributions for a particular use
 Following rules are used to count a contribution:
 
 1. 1 contribution, if the user opens an issue, 
-2. 1 contribution, if the commit is made on a master repository
+2. 1 contribution, if the commit is made on one of their master repository
 3. 1 contribution, if the user opens a pull request on a master repository.
 
+After logging in, when prompted to `Enter the github handle of the User whose contributions you want to check:` enter your own github handle. (For example: `geeteshnikhade` in my case).
+
 As per my research, GitHub API does not provide information about the private repos, or the commits to private repos. 
-***Hence, contributions to private repos couldnt be calculated.***
+***Hence, a request to calculate contributions of some other user would not include the contributions that they made to their private repos.***
 
 ## gitGetContributionsCommandLine ##
 imports required:
