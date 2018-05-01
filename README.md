@@ -11,7 +11,7 @@ Following rules are used to count a contribution:
 
 After logging in, when prompted to `Enter the github handle of the User whose contributions you want to check:` enter your own github handle. (For example: `geeteshnikhade` in my case).
 
-As per my research, GitHub API does not provide information about the private repos, or the commits to private repos. 
+As per my research, GitHub API does not provide information about the private repos, or the commits to private repos of other users. 
 ***Hence, a request to calculate contributions of some other user would not include the contributions that they made to their private repos.***
 
 ## gitGetContributionsCommandLine ##
